@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Neon Pulse - Tu webzine de cultura cyberpunk, tecnología y futuro.">
+    <title>NEON PULSE | Webzine Digital</title>
+    <!-- Google Fonts: Orbitron (Títulos) y Rajdhani (Cuerpo) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Contenedor Principal con Grid -->
+    <div class="grid-container">
+        
+        <!-- HEADER: Logo y Navegación -->
+        <header class="header">
+            <div class="logo">
+                <h1>NEON<span class="pulse">PULSE</span></h1>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#articulos">Artículos</a></li>
+                    <li><a href="#galeria">Galería</a></li>
+                    <li><a href="#newsletter">Suscripción</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- MAIN: Contenido Principal -->
+        <main class="main-content">
+            
+            <!-- Artículo Destacado (Portada) -->
+            <section id="inicio" class="hero-section">
+                <article class="hero-article">
+                    <figure class="hero-image">
+                        <img src="https://picsum.photos/seed/cyberpunkcity/1200/600" alt="Ciudad Futurista Cyberpunk">
+                        <figcaption>La estética del mañana, hoy.</figcaption>
+                    </figure>
+                    <div class="hero-text">
+                        <time datetime="2026-02-17">17 de Febrero, 2026</time>
+                        <h2>El Renacimiento Digital: IA y Arte</h2>
+                        <p>Exploramos cómo las redes neuronales están redefiniendo la creatividad humana en un mundo cada vez más sintético.</p>
+                        <a href="#" class="btn-read-more">Leer Más</a>
+                    </div>
+                </article>
+            </section>
+
+            <!-- Sección de Artículos (Grid Interno o Flex) -->
+            <section id="articulos" class="articles-grid">
+                <h3 class="section-title">Tendencias Recientes</h3>
+                
+                <article class="card">
+                    <figure>
+                        <img src="https://picsum.photos/seed/robot/600/400" alt="Robotica Avanzada">
+                    </figure>
+                    <div class="card-content">
+                        <span class="category">Robótica</span>
+                        <h4>Autómatas Conscientes</h4>
+                        <p>¿Estamos cerca de la singularidad? Un análisis profundo sobre la conciencia de máquina.</p>
+                        <time datetime="2026-02-15">15 Feb 2026</time>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <figure>
+                        <img src="https://picsum.photos/seed/vr/600/400" alt="Realidad Virtual">
+                    </figure>
+                    <div class="card-content">
+                        <span class="category">Inmersión</span>
+                        <h4>El Metaverso Olvidado</h4>
+                        <p>Recorriendo las ruinas digitales de los primeros mundos virtuales.</p>
+                        <time datetime="2026-02-10">10 Feb 2026</time>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <figure>
+                        <img src="https://picsum.photos/seed/code/600/400" alt="Codigo y Hacking">
+                    </figure>
+                    <div class="card-content">
+                        <span class="category">Ciberseguridad</span>
+                        <h4>Sombras en la Red</h4>
+                        <p>Los nuevos desafíos de la privacidad en la era del computo cuántico.</p>
+                        <time datetime="2026-02-05">05 Feb 2026</time>
+                    </div>
+                </article>
+            </section>
+
+            <!-- Galería de Imágenes (Contenido embebido) -->
+            <section id="galeria" class="gallery-section">
+                <h3 class="section-title">Visiones del Futuro</h3>
+                <div class="gallery-container">
+                    <figure class="gallery-item">
+                        <img src="https://picsum.photos/seed/neon1/400/400" alt="Luces de Neón">
+                        <figcaption>Tokyo Neo</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="https://picsum.photos/seed/tech1/400/400" alt="Hardware Retro">
+                        <figcaption>Circuitos</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="https://picsum.photos/seed/future1/400/400" alt="Arquitectura Brutalista">
+                        <figcaption>Estructuras</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="https://picsum.photos/seed/synth1/400/400" alt="Synthwave">
+                        <figcaption>Atardecer</figcaption>
+                    </figure>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- ASIDE: Biografía y Links -->
+        <aside class="sidebar">
+            <div class="author-bio">
+                <figure class="author-avatar">
+                   <img src="https://picsum.photos/seed/person/200/200" alt="Avatar del Editor">
+                </figure>
+                <h3>Alex "Glitch" Vega</h3>
+                <p>Editor en Jefe de Neon Pulse. Obsesionado con el scifi retro y la tecnología análoga. Buscando el fantasma en la máquina desde 1999.</p>
+            </div>
+            
+            <div class="related-links">
+                <h4>Lecturas Recomendadas</h4>
+                <ul>
+                    <li><a href="#">Manifiesto Cyborg</a></li>
+                    <li><a href="#">Ética de la IA</a></li>
+                    <li><a href="#">Historia del Vaporwave</a></li>
+                    <li><a href="#">Guía de Hardware 2026</a></li>
+                </ul>
+            </div>
+
+            <div class="ad-banner">
+                <p>ESPACIO PUBLICITARIO</p>
+                <span>Tu Marca Aquí</span>
+            </div>
+        </aside>
+
+        <!-- FOOTER: Formulario -->
+        <footer class="footer" id="newsletter">
+            <div class="footer-content">
+                <div class="subscribe-section">
+                    <h3>Únete a la Resistencia</h3>
+                    <p>Recibe las últimas transmisiones directamente en tu neuro-enlace (o email).</p>
+                    
+                    <form action="#" method="get" class="subscribe-form">
+                        <div class="form-group">
+                            <label for="email">Correo Electrónico:</label>
+                            <input type="email" id="email" name="email" placeholder="usuario@red.com" required>
+                        </div>
+                        
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="terms" name="terms" required>
+                            <label for="terms">Acepto los términos de procesamiento de datos y la política de privacidad galáctica.</label>
+                        </div>
+
+                        <button type="submit" class="btn-submit">SUSCRIBIRSE</button>
+                    </form>
+                </div>
+                
+                <div class="copyright">
+                    <p>&copy; 2026 NEON PULSE Webzine. Todos los derechos reservados. <a href="#">Aviso Legal</a>.</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>
